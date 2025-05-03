@@ -1,1 +1,1 @@
-
+KERNEL=="tty[A-Z]*", NAME="%k", GROUP="asterisk", MODE="0660"
