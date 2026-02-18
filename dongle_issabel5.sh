@@ -32,7 +32,7 @@ cd /usr/src
 REPO="https://github.com/wdoekes/asterisk-chan-dongle.git"
 if [ -d "asterisk-chan-dongle" ]; then
     echo "Updating existing repository..."
-    cd asterisk-chan-dongle
+    cd /usr/src/asterisk-chan-dongle
     git pull || { 
         echo "Update failed. Cloning fresh...";
         cd ..
